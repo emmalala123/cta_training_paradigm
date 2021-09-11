@@ -72,9 +72,9 @@ if __name__=="__main__":
 
             elif choice == 3:  # run the actual program
                     print("starting hab1")
-                    wait = input("please enter wait period")
-                    crosstime = input("please enter time for crossing")
-                    iti = input("please enter iti")
+                    wait = float(input("please enter wait period: "))
+                    crosstime = float(input("please enter time for crossing: "))
+                    iti = input("please enter iti: ")
                     rewardtrigger = 1
                     hab(wait, crosstime, iti, lines, trig, rew, rewardtrigger)
             elif choice == 4:
