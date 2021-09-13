@@ -1,4 +1,6 @@
-# calibration_menu() runs a submenu of main_menu() for navigating calibration of taste valves.
+"""
+calibration_menu() runs a submenu of main_menu() for navigating calibration of taste valves.
+"""
 def calibration_menu():
     while True:
         for x in range(1, 5):

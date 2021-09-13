@@ -1,9 +1,10 @@
-import time
+"""
+record() logs sensor and valve data to a .csv file. Typically instantiated as a multiprocessing.processimport time
+"""
 import datetime
 import csv
 import os
 
-# record() logs sensor and valve data to a .csv file. Typically instantiated as a multiprocessing.process
 def record(poke1, poke2, lines, starttime, endtime, anID):
     print("recording started")
     now = datetime.datetime.now()

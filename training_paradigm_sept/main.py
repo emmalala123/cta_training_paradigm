@@ -1,3 +1,6 @@
+"""
+This is the main program that integrates all the classes and functions to control the training paradigm.
+"""
 import os
 import RPi.GPIO as GPIO
 import configparser

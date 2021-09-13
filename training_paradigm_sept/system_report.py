@@ -1,4 +1,7 @@
-# system_report() prints a system report of calibrations and tastes
+"""
+system_report() prints a system report of calibrations and tastes
+"""
+
 def system_report(lines):
     line_no = 1
     print(67 * "-")

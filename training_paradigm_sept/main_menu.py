@@ -1,4 +1,6 @@
-# main_menu() shows the user the main menu and receives input
+"""
+main_menu() shows the user the main menu and receives input
+"""
 def main_menu():
     options = ["clearout a line", "calibrate a line", "hab",
                "exit"]

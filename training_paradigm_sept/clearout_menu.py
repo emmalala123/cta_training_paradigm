@@ -1,4 +1,6 @@
-# clearout_menu() runs a submenu of main_menu() for navigating clearouts of taste tubes.
+"""
+clearout_menu() runs a submenu of main_menu() for navigating clearouts of taste tubes.
+"""
 def clearout_menu():
     while True:
         for x in range(1, 5):

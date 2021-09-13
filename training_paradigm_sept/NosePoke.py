@@ -1,3 +1,7 @@
+"""
+This class controls the nosepoke that delivers rewards to the animals, functions include flash (on and off), shutdown, is_crossed, keepout, and kill.
+"""
+
 import RPi.GPIO as GPIO
 import time
 

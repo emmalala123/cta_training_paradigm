@@ -1,3 +1,6 @@
+"""
+This class controls the habituation program, this function is pulled from the main.py program.
+"""
 import time
 import multiprocessing as mp
 import RPi.GPIO as GPIO
