@@ -2,6 +2,7 @@
 record() logs sensor and valve data to a .csv file. Typically instantiated as a multiprocessing.processimport time
 """
 import datetime
+import time
 import csv
 import os
 
