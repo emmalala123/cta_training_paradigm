@@ -1,3 +1,6 @@
+"""
+This function tests the system to make sure the entire program isn't being held-up by hardware.
+"""
 import NosePoke as NosePoke
 
 def menu():
