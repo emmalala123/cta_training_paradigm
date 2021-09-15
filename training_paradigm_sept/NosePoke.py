@@ -43,11 +43,13 @@ class NosePoke:
                 GPIO.output(self.light, 1)
         print("flashing "+str(self.light)+" start")
 
+    # set port/pin value to 1/GPIO.HIGH/True
+    # # set port/pin value to 0/GPIO.LOW/False
     def is_crossed(self):  # report if beam is crossed
-        if GPIO.input(self.beam) == 0:
-            return True
-        else:
-            return False
+        return not GPIO.input(self.beam) == 0 # added the "not"
+        #     return True
+        # else:
+        #     return False
 
     def keep_out(self, wait):  # report when the animal has stayed out of the nosepoke for duration of [wait] seconds
         print("keep out start")
