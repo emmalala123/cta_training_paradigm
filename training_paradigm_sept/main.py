@@ -1,5 +1,7 @@
 """
 This is the main program that integrates all the classes and functions to control the training paradigm.
+
+TODO: must randomize the start port (vals 1 and 2), change crosstime, and after every 4 trials instantiate ITI.
 """
 import os
 import RPi.GPIO as GPIO
@@ -75,7 +77,9 @@ if __name__=="__main__":
 
             elif choice == 3:  # run the actual program
                     print("starting hab1")
-                    wait = float(input("please enter wait period: "))
+                    # have a catch for no values
+                    wait = float(input("please enter wait period (suggested 0.1): "))
+                    # we don't want a crosstime
                     crosstime = float(input("please enter time for crossing: "))
                     iti = input("please enter iti: ")
                     rewardtrigger = 1
